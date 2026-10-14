@@ -1,0 +1,11 @@
+{
+  "name": "workday-jobs-scraper",
+  "version": "0.1.0",
+  "description": "Scrape open jobs from any Workday career site (myworkdayjobs.com) via its public JSON endpoint. Zero dependencies.",
+  "type": "module",
+  "bin": { "workday-jobs": "bin/workday-jobs.js" },
+  "engines": { "node": ">=18" },
+  "keywords": ["workday", "myworkdayjobs", "jobs", "scraper", "job-board", "recruiting", "ats"],
+  "license": "MIT",
+  "repository": "github:benkrasin/workday-jobs-scraper"
+}
